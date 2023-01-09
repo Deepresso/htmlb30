@@ -1,0 +1,101 @@
+p {
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+.my-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    border-width: 1px;
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(226, 226,226);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 226, 226);
+}
+
+.left-section {
+    display:flex;
+    align-items: center;
+}
+
+.right-section {
+    margin-right: 100px;
+}
+
+.my-pic {
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.my-res {
+    margin-left: 100px;
+}
+
+.name {
+    margin-left: 100px;
+}
+
+.first-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.lf-container {
+    display: grid;
+    text-align: center;
+    border-right: 2px solid rgb(226 ,226 ,226);
+    
+    
+}
+
+.rf-container {
+    display: grid;
+    text-align: center;
+}
+
+.table-body {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.table1 {
+    border: 1px solid black;
+    margin-bottom: 80px;
+    margin-left: 30px;
+}
+
+.td1 {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    background-color:rgb(226, 226, 226);
+}
+
+
+.th2, 
+.td2  {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    background-color:rgb(226, 226, 226);
+}
+
+.table2 {
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
